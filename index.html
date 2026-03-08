@@ -302,14 +302,14 @@ const captions = [
 ];
 
 const questions = [
-  { q: "What did we go to see the first time I took you out? 🦋", a: "butterflies" },
+  { q: "What did we go to see the first time we went out together? 🦋", a: "butterflies" },
   { q: "What is our favorite football club? ⚽", a: "chelsea" },
   { q: "Do you like me? 😏", a: "yes" }
 ];
 
 const hails = [
   "Yesss! You remembered! 👑 Asa Mpete!",
-  "That's right my baby! 🏆 You're so smart!",
+  "That's right my baby! 🏆 Na your jersey remian!",
   "Of course you do! 💜 I knew it!"
 ];
 
@@ -382,7 +382,7 @@ function checkAnswer() {
         launchConfetti();
       }, 2000);
     } else {
-      setTimeout(loadQuestion, 2000);
+      setTimeout(loadQuestion, 3000);
     }
   } else {
     document.getElementById('wrong').classList.add('show');
@@ -484,3 +484,4 @@ function spawnHearts() {
 </script>
 </body>
 </html>
+
